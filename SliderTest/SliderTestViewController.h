@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface SliderTestViewController : UIViewController {
-    
+    IBOutlet UISlider *slider;
+    IBOutlet UIScrollView *scrollView;
 }
+
+- (IBAction) valueChanged:(id)sender event:(UIControlEvents)event;
 
 @end

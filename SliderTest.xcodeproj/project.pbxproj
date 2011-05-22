@@ -16,6 +16,7 @@
 		D90827BA1389D6BE005A5B43 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90827B81389D6BE005A5B43 /* MainWindow.xib */; };
 		D90827BD1389D6BE005A5B43 /* SliderTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90827BC1389D6BE005A5B43 /* SliderTestViewController.m */; };
 		D90827C01389D6BE005A5B43 /* SliderTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90827BE1389D6BE005A5B43 /* SliderTestViewController.xib */; };
+		D90827C71389D839005A5B43 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D90827C61389D839005A5B43 /* photo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		D90827A61389D6BD005A5B43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D90827A81389D6BD005A5B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D90827AA1389D6BD005A5B43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D90827AE1389D6BD005A5B43 /* SliderTest-Info.plist */ = {isa = PBXFileReference; path = "SliderTest-Info.plist"; sourceTree = "<group>"; };
+		D90827AE1389D6BD005A5B43 /* SliderTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderTest-Info.plist"; sourceTree = "<group>"; };
 		D90827B01389D6BD005A5B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D90827B21389D6BE005A5B43 /* SliderTest-Prefix.pch */ = {isa = PBXFileReference; path = "SliderTest-Prefix.pch"; sourceTree = "<group>"; };
+		D90827B21389D6BE005A5B43 /* SliderTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SliderTest-Prefix.pch"; sourceTree = "<group>"; };
 		D90827B31389D6BE005A5B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D90827B51389D6BE005A5B43 /* SliderTestAppDelegate.h */ = {isa = PBXFileReference; path = SliderTestAppDelegate.h; sourceTree = "<group>"; };
+		D90827B51389D6BE005A5B43 /* SliderTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderTestAppDelegate.h; sourceTree = "<group>"; };
 		D90827B61389D6BE005A5B43 /* SliderTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderTestAppDelegate.m; sourceTree = "<group>"; };
 		D90827B91389D6BE005A5B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D90827BB1389D6BE005A5B43 /* SliderTestViewController.h */ = {isa = PBXFileReference; path = SliderTestViewController.h; sourceTree = "<group>"; };
+		D90827BB1389D6BE005A5B43 /* SliderTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderTestViewController.h; sourceTree = "<group>"; };
 		D90827BC1389D6BE005A5B43 /* SliderTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderTestViewController.m; sourceTree = "<group>"; };
 		D90827BF1389D6BE005A5B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SliderTestViewController.xib; sourceTree = "<group>"; };
+		D90827C61389D839005A5B43 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		D90827AD1389D6BD005A5B43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D90827C61389D839005A5B43 /* photo.jpg */,
 				D90827AE1389D6BD005A5B43 /* SliderTest-Info.plist */,
 				D90827AF1389D6BD005A5B43 /* InfoPlist.strings */,
 				D90827B21389D6BE005A5B43 /* SliderTest-Prefix.pch */,
@@ -151,6 +154,7 @@
 				D90827B11389D6BE005A5B43 /* InfoPlist.strings in Resources */,
 				D90827BA1389D6BE005A5B43 /* MainWindow.xib in Resources */,
 				D90827C01389D6BE005A5B43 /* SliderTestViewController.xib in Resources */,
+				D90827C71389D839005A5B43 /* photo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
