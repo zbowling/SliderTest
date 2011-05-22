@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90827A71389D6BD005A5B43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90827A61389D6BD005A5B43 /* UIKit.framework */; };
+		D90827A91389D6BD005A5B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90827A81389D6BD005A5B43 /* Foundation.framework */; };
+		D90827AB1389D6BD005A5B43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90827AA1389D6BD005A5B43 /* CoreGraphics.framework */; };
+		D90827B11389D6BE005A5B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D90827AF1389D6BD005A5B43 /* InfoPlist.strings */; };
+		D90827B41389D6BE005A5B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D90827B31389D6BE005A5B43 /* main.m */; };
+		D90827B71389D6BE005A5B43 /* SliderTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90827B61389D6BE005A5B43 /* SliderTestAppDelegate.m */; };
+		D90827BA1389D6BE005A5B43 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90827B81389D6BE005A5B43 /* MainWindow.xib */; };
+		D90827BD1389D6BE005A5B43 /* SliderTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90827BC1389D6BE005A5B43 /* SliderTestViewController.m */; };
+		D90827C01389D6BE005A5B43 /* SliderTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90827BE1389D6BE005A5B43 /* SliderTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D90827A21389D6BD005A5B43 /* SliderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90827A61389D6BD005A5B43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D90827A81389D6BD005A5B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D90827AA1389D6BD005A5B43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D90827AE1389D6BD005A5B43 /* SliderTest-Info.plist */ = {isa = PBXFileReference; path = "SliderTest-Info.plist"; sourceTree = "<group>"; };
+		D90827B01389D6BD005A5B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D90827B21389D6BE005A5B43 /* SliderTest-Prefix.pch */ = {isa = PBXFileReference; path = "SliderTest-Prefix.pch"; sourceTree = "<group>"; };
+		D90827B31389D6BE005A5B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D90827B51389D6BE005A5B43 /* SliderTestAppDelegate.h */ = {isa = PBXFileReference; path = SliderTestAppDelegate.h; sourceTree = "<group>"; };
+		D90827B61389D6BE005A5B43 /* SliderTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderTestAppDelegate.m; sourceTree = "<group>"; };
+		D90827B91389D6BE005A5B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D90827BB1389D6BE005A5B43 /* SliderTestViewController.h */ = {isa = PBXFileReference; path = SliderTestViewController.h; sourceTree = "<group>"; };
+		D90827BC1389D6BE005A5B43 /* SliderTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderTestViewController.m; sourceTree = "<group>"; };
+		D90827BF1389D6BE005A5B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SliderTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D908279F1389D6BD005A5B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90827A71389D6BD005A5B43 /* UIKit.framework in Frameworks */,
+				D90827A91389D6BD005A5B43 /* Foundation.framework in Frameworks */,
+				D90827AB1389D6BD005A5B43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90827971389D6BD005A5B43 = {
+			isa = PBXGroup;
+			children = (
+				D90827AC1389D6BD005A5B43 /* SliderTest */,
+				D90827A51389D6BD005A5B43 /* Frameworks */,
+				D90827A31389D6BD005A5B43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90827A31389D6BD005A5B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90827A21389D6BD005A5B43 /* SliderTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90827A51389D6BD005A5B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90827A61389D6BD005A5B43 /* UIKit.framework */,
+				D90827A81389D6BD005A5B43 /* Foundation.framework */,
+				D90827AA1389D6BD005A5B43 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90827AC1389D6BD005A5B43 /* SliderTest */ = {
+			isa = PBXGroup;
+			children = (
+				D90827B51389D6BE005A5B43 /* SliderTestAppDelegate.h */,
+				D90827B61389D6BE005A5B43 /* SliderTestAppDelegate.m */,
+				D90827B81389D6BE005A5B43 /* MainWindow.xib */,
+				D90827BB1389D6BE005A5B43 /* SliderTestViewController.h */,
+				D90827BC1389D6BE005A5B43 /* SliderTestViewController.m */,
+				D90827BE1389D6BE005A5B43 /* SliderTestViewController.xib */,
+				D90827AD1389D6BD005A5B43 /* Supporting Files */,
+			);
+			path = SliderTest;
+			sourceTree = "<group>";
+		};
+		D90827AD1389D6BD005A5B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D90827AE1389D6BD005A5B43 /* SliderTest-Info.plist */,
+				D90827AF1389D6BD005A5B43 /* InfoPlist.strings */,
+				D90827B21389D6BE005A5B43 /* SliderTest-Prefix.pch */,
+				D90827B31389D6BE005A5B43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90827A11389D6BD005A5B43 /* SliderTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90827C31389D6BE005A5B43 /* Build configuration list for PBXNativeTarget "SliderTest" */;
+			buildPhases = (
+				D908279E1389D6BD005A5B43 /* Sources */,
+				D908279F1389D6BD005A5B43 /* Frameworks */,
+				D90827A01389D6BD005A5B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderTest;
+			productName = SliderTest;
+			productReference = D90827A21389D6BD005A5B43 /* SliderTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90827991389D6BD005A5B43 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D908279C1389D6BD005A5B43 /* Build configuration list for PBXProject "SliderTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D90827971389D6BD005A5B43;
+			productRefGroup = D90827A31389D6BD005A5B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90827A11389D6BD005A5B43 /* SliderTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90827A01389D6BD005A5B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90827B11389D6BE005A5B43 /* InfoPlist.strings in Resources */,
+				D90827BA1389D6BE005A5B43 /* MainWindow.xib in Resources */,
+				D90827C01389D6BE005A5B43 /* SliderTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D908279E1389D6BD005A5B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90827B41389D6BE005A5B43 /* main.m in Sources */,
+				D90827B71389D6BE005A5B43 /* SliderTestAppDelegate.m in Sources */,
+				D90827BD1389D6BE005A5B43 /* SliderTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D90827AF1389D6BD005A5B43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90827B01389D6BD005A5B43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D90827B81389D6BE005A5B43 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90827B91389D6BE005A5B43 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D90827BE1389D6BE005A5B43 /* SliderTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90827BF1389D6BE005A5B43 /* en */,
+			);
+			name = SliderTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90827C11389D6BE005A5B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D90827C21389D6BE005A5B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D90827C41389D6BE005A5B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderTest/SliderTest-Prefix.pch";
+				INFOPLIST_FILE = "SliderTest/SliderTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D90827C51389D6BE005A5B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderTest/SliderTest-Prefix.pch";
+				INFOPLIST_FILE = "SliderTest/SliderTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D908279C1389D6BD005A5B43 /* Build configuration list for PBXProject "SliderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90827C11389D6BE005A5B43 /* Debug */,
+				D90827C21389D6BE005A5B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90827C31389D6BE005A5B43 /* Build configuration list for PBXNativeTarget "SliderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90827C41389D6BE005A5B43 /* Debug */,
+				D90827C51389D6BE005A5B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90827991389D6BD005A5B43 /* Project object */;
+}
